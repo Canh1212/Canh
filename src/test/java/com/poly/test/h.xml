@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Selenium Suite">
+    <test name="TestTT">
+        <classes>
+            <class name="com.poly.test.TestTT"/>
+                    <include name="testLoginUser"/>
+                    <include name="testAccessAdminAndCategories"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Selenium Suite]">
+  <test thread-count="5" name="TestTT(failed)">
+    <classes>
+      <class name="com.poly.test.TestTT">
+        <methods>
+          <include name="testCRUD"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.poly.test.TestTT -->
+    </classes>
+  </test> <!-- TestTT(failed) -->
+</suite> <!-- Failed suite [Selenium Suite] -->
